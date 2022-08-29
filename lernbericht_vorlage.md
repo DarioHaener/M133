@@ -1,5 +1,5 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Haener Dario
 
 ## Einleitung
 
@@ -7,11 +7,22 @@
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Ein String in einer Bean abzuspeichern und diesen an einem späteren Zeitpunkt wiederzugeben.
 
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+
+
+
+```Java
+<!-- Input Surname -->
+Geben sie ihr nachnamen ein
+<!-- Saves input surname in bean -->
+<h:inputText value="#{sessionHandler.nachname}" id="nachname"></h:inputText>
+<!-- Takes User to next page -->
+<h:commandLink value="Nächste Seite" action="index_2.xhtml"></h:commandLink>
+```
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
