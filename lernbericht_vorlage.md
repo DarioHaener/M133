@@ -3,7 +3,7 @@ Haener Dario
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Im Modul 133 haben wir gelernt wie man mit xhtml und JSF Sowie mit verschiedenen Sessions umzugehen.
 
 ## Was habe ich gelernt?
 
@@ -30,7 +30,7 @@ Ausgabe Nachname
 <h:outputLabel value="#{sessionHandler.nachname}" id="nachname"/>
 ```
 
-Gif vom Speichern und wiedergeben.
+GIF vom Speichern und wiedergeben.
 
 ![beans](https://user-images.githubusercontent.com/69902881/187161603-64471643-fac7-479c-918e-e58beea569b1.gif)
 
@@ -43,6 +43,6 @@ Im GIF kann man sehen wie ich meinen Namen eingebe und dieser dann am schluss wi
 
 👍 Ich konnte mich trotz verpasstem einstieg schnell in das Modul einarbeiten.
 
-👎Ich konnte an der ersten Lektion nicht Teilnehmen und musste manche Aufträge nachholen.
+👎 Ich konnte an der ersten Lektion nicht Teilnehmen und musste manche Aufträge nachholen. 
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Pausen besser einteilen
