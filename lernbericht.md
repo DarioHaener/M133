@@ -36,7 +36,7 @@ GIF vom Speichern und wiedergeben.
 
 ## Verifikation
 
-Der erste Code-Fetzen speichert den Nachnamen und der zwite gibt Ihn später wieder aus.
+Der erste Code-Fetzen speichert den Nachnamen und der zwite gibt ihn später wieder aus.
 Im GIF kann man sehen wie ich meinen Namen eingebe und dieser dann am schluss wiedergegeben wird.
 
 # Reflektion zum Arbeitsprozess
