@@ -7,36 +7,41 @@ Haener Dario
 
 ## Was habe ich gelernt?
 
-Ein String in einer Bean abzuspeichern und diesen an einem späteren Zeitpunkt wiederzugeben.
+Einen String in einer Bean abzuspeichern um diesen an einem späteren Zeitpunkt wiederzugeben.
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+Wie man mit Beans Strings speichert, damit man diese später wieder ausgeben kann. Wobei ich eine `SessionScoped` Bean verwendet habe.
+In meinem Fall heisst diese Bean `sessionHandler`.
 
-
-
+Eingabe Nachname
 ```Java
 <!-- Input Surname -->
 Geben sie ihr nachnamen ein
 <!-- Saves input surname in bean -->
-<h:inputText value="#{sessionHandler.nachname}" id="nachname"></h:inputText>
-<!-- Takes User to next page -->
-<h:commandLink value="Nächste Seite" action="index_2.xhtml"></h:commandLink>
+<h:inputText value="#{sessionHandler.nachname}" id="nachname"/>
+<!-- Takes user to next page -->
+<h:commandLink value="Nächste Seite" action="index_2.xhtml"/>
 ```
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+Ausgabe Nachname
+```Java
+<!-- Output Surname -->
+<h:outputLabel value="#{sessionHandler.nachname}" id="nachname"/>
+```
+
+Gif vom Speichern und wiedergeben.
+![beans](https://user-images.githubusercontent.com/69902881/187161603-64471643-fac7-479c-918e-e58beea569b1.gif)
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Der erste Code-Fetzen speichert den Nachnamen und der zwite gibt Ihn später wieder aus.
+Im GIF kann man sehen wie ich meinen Namen eingebe und dieser dann am schluss wiedergegeben wird.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Ich konnte mich trotz verpasstem einstieg schnell in das Modul einarbeiten.
 
-👎 und etwas, was nicht gut lief.
+👎Ich konnte an der ersten Lektion nicht Teilnehmen und musste manche Aufträge nachholen.
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
