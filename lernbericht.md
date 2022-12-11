@@ -3,7 +3,7 @@ Haener Dario
 
 ## Einleitung
 
-Im Modul 133 haben wir gelernt wie man mit xhtml und JSF Sowie mit verschiedenen Sessions umzugehen.
+Im Modul 133 haben wir gelernt wie mit xhtml und JSF Sowie mit verschiedenen Sessions umzugehen ist.
 
 ## Was habe ich gelernt?
 
